@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Stuff We Have - DripCheck</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">DRIPCHECK</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html">Home</a></li>
+											<li><a href="inventory.html">Stuff We Have</a></li>
+											<!-- <li><a href="generic.html">Generic</a></li> -->
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<article id="main">
+						<header>
+							<h2>STUFF WE HAVE</h2>
+						<!-- 	<p>This is the shoes</p> -->
+						</header>
+
+						<div class="filter-section">
+							<div class="filter">
+							  <label for="sort">Sort by:</label>
+							  <select id="sort" onchange="filterItems()">
+								<option value="default">Default</option>
+								<option value="priceLowHigh">Price: Low to High</option>
+								<option value="priceHighLow">Price: High to Low</option>
+								<option value="rating">Rating</option>
+							  </select>
+							</div>
+						  
+							<div class="filter">
+							  <label for="category">Category:</label>
+							  <select id="category" onchange="filterItems()">
+								<option value="all">All</option>
+								<option value="clothing">Clothing</option>
+								<option value="shoes">Shoes</option>
+								<option value="accessories">Accessories</option>
+							  </select>
+							</div>
+						  </div>
+						  
+						  <!-- Product List -->
+						  <div class="product-list">
+							<div class="product" data-price="20" data-category="clothing" data-rating="4">
+							  <h3>Product 1</h3>
+							  <p>Price: $20</p>
+							  <p>Rating: 4/5</p>
+							</div>
+							<div class="product" data-price="50" data-category="shoes" data-rating="5">
+							  <h3>Product 2</h3>
+							  <p>Price: $50</p>
+							  <p>Rating: 5/5</p>
+							</div>
+							<div class="product" data-price="30" data-category="clothing" data-rating="3">
+							  <h3>Product 3</h3>
+							  <p>Price: $30</p>
+							  <p>Rating: 3/5</p>
+							</div>
+							<!-- More products -->
+						  </div>
+						<section class="wrapper style5">
+							<div class="inner">
+
+								<section>
+							<!-- 		<h4>Image</h4> -->
+							<!-- 		<h5>Fit</h5> -->
+									<div class="box alt">
+										<div class="row gtr-50 gtr-uniform">
+											<div class="col-12"><span class="image fit"><img src="images/banner.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+										</div>
+									</div>
+							  	    <h4>Another Section</h4>
+									<h5>Left &amp; Right</h5>
+									<p><span class="image left"><img src="images/pic04.jpg" alt="" /></span>Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo, tempus sed finibus eget, fringilla quis risus. Maecenas et lorem quis sem varius sagittis et a est. Maecenas iaculis iaculis sem. Donec vel dolor at arcu tincidunt bibendum.</p>
+									<p><span class="image right"><img src="images/pic05.jpg" alt="" /></span>Vestibulum ultrices risus velit, sit amet blandit massa auctor sit amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor mollis id vel diam. Praesent sit amet posuere risus, eu faucibus lectus. Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam. Proin nec dui cursus, posuere dui eget interdum. Fusce lectus magna, sagittis at facilisis vitae, pellentesque at etiam. Quisque posuere leo quis sem commodo, vel scelerisque nisi scelerisque. </p>
+								</section>
+
+							</div>
+						</section>
+					</article>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-x-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-tiktok"><span class="label">Tiktok</span></a></li>
+							<li><a href="#" class="icon solid fa-map-pin"><span class="label">Maps</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; DRIPCHECKMD </li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
