@@ -3448,7 +3448,7 @@ s			}
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #21b2a6;
+		background: rgba(0, 0, 0, 0.4); /* Menu background with opacity */
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
@@ -3679,6 +3679,7 @@ s			}
 		overflow: hidden;
 		position: relative;
 		text-align: center;
+		border: none !important; /* dotted line */ 
 	}
 
 		#banner h2 {
@@ -4000,6 +4001,7 @@ s			}
 
 		#footer .icons {
 			font-size: 1.25em;
+			line-height: 0.2em;
 		}
 
 			#footer .icons a {
