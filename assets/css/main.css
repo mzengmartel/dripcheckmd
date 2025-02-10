@@ -3988,6 +3988,16 @@ s			}
 		text-align: center;
 	}
 
+	#footer a {
+		border: none !important; /* dotted line */  
+		color: rgba(255, 255, 255, 0.5);
+		font-size: 1.0em; 
+		letter-spacing: 0.225em;
+		list-style: none;
+		padding: 0;
+		text-transform: uppercase;
+	}
+
 		#footer .icons {
 			font-size: 1.25em;
 		}
@@ -4000,6 +4010,15 @@ s			}
 					color: #fff;
 				}
 
+				#footer .icons li a[href^="tel:"] {
+					font-size: 0.75em; 
+					letter-spacing: 0.20em;
+				}
+				
+				#footer .icons li a[href^="tel:"] .fa-phone {
+					font-size: 1.0em; 
+				}
+		
 		#footer .copyright {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.8em;
@@ -4021,6 +4040,9 @@ s			}
 					border-left: 0;
 					margin-left: 0;
 					padding-left: 0;
+				}
+				#footer .copyright div:last-child {
+					margin-top: 1.5em;  
 				}
 
 				#footer .copyright li a {
